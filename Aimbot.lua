@@ -1,6 +1,6 @@
 --// Created by Ghazwan - Updated Version (Draggable + Close Button)
 local NotificationLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMinisterq/Notification-Library/Main/Library.lua"))()
-NotificationLibrary:SendNotification("Info", "واجهة غزوان: الآن تدعم السحب والإغلاق", 5)
+NotificationLibrary:SendNotification("Info", " Activated", 5)
 
 local gui = Instance.new("ScreenGui", gethui())
 gui.ResetOnSpawn = false
@@ -34,7 +34,7 @@ local title = Instance.new("TextLabel", frame)
 title.Size = UDim2.new(1, -40, 0, 35)
 title.Position = UDim2.new(0, 10, 0, 0)
 title.BackgroundTransparency = 1
-title.Text = "واجهة غزوان المطورة"
+title.Text = " Underground war 2.0"
 title.TextColor3 = Color3.fromRGB(255, 0, 0)
 title.Font = Enum.Font.GothamBold
 title.TextSize = 18
@@ -45,7 +45,7 @@ local aimButton = Instance.new("TextButton", frame)
 aimButton.Size = UDim2.new(0.8, 0, 0, 45)
 aimButton.Position = UDim2.new(0.1, 0, 0.5, -5)
 aimButton.BackgroundColor3 = Color3.fromRGB(180, 0, 0)
-aimButton.Text = "تفعيل الإيم بوت"
+aimButton.Text = "Automatic launch "
 aimButton.TextColor3 = Color3.new(1, 1, 1)
 aimButton.Font = Enum.Font.GothamBold
 aimButton.TextSize = 20
